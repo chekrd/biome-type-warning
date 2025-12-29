@@ -1,0 +1,32 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.3.10/schema.json",
+  "root": true,
+  "formatter": {
+    "indentStyle": "space",
+    "lineWidth": 100
+  },
+  "javascript": {
+    "formatter": {
+      "indentStyle": "space",
+      "lineWidth": 100,
+      "quoteStyle": "single"
+    }
+  },
+  "linter": {
+    "rules": {
+      "correctness": {
+        "noPrivateImports": "error"
+      }
+    }
+  },
+  "files": {
+    "includes": [
+      "**",
+      "!**/*-lock.json",
+      "!!**/.DS_Store",
+      "!!**/.vscode",
+      "!**/node_modules",
+      "!**/package.json"
+    ]
+  }
+}

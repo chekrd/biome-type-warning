@@ -1,0 +1,13 @@
+{
+  "name": "biome-type-warning",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "biome:once": "biome ci ./",
+    "biome:fix": "biome check ./ --fix --unsafe"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.10",
+    "typescript": "5.9.3"
+  }
+}
